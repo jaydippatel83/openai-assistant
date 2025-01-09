@@ -47,8 +47,8 @@ An intelligent CLI assistant that combines OpenAI's GPT capabilities with blockc
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js v16 or higher
-- npm or yarn
+- Node.js v18 or higher
+- npm 
 - Base Sepolia testnet ETH (for testing)
 - OpenAI API key
 
@@ -56,15 +56,13 @@ An intelligent CLI assistant that combines OpenAI's GPT capabilities with blockc
 
 1. **Clone the Repository**
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/jaydippatel83/openai-assistant.git
 cd openai-assistant
 ```
 
 2. **Install Dependencies**
 ```bash
 npm install
-# or
-yarn install
 ```
 
 3. **Configure Environment**
@@ -77,31 +75,8 @@ RPC_URL=your_base_sepolia_rpc_url
 
 4. **Start the Application**
 ```bash
-npm start
-# or
-yarn start
-```
-
-## 🌐 Network Configuration
-
-### Base Sepolia (Testnet)
-- Network Name: Base Sepolia
-- RPC URL: https://sepolia.base.org
-- Chain ID: 84532
-- Currency Symbol: ETH
-- Block Explorer: https://sepolia.basescan.org
-
-### Getting Test ETH
-1. Visit [Base Sepolia Faucet](https://sepoliafaucet.com)
-2. Connect your wallet
-3. Request test ETH
-
-## 💻 Usage Guide
-
-### Starting the Assistant
-```bash
-npm start
-```
+npm start 
+``` 
 
 ### Example Interactions
 
@@ -152,24 +127,7 @@ openai-assistant/
 ├── package.json
 └── tsconfig.json
 ```
-
-### Building
-```bash
-npm run build
-```
-
-### Testing
-```bash
-npm test
-```
-
-### Development Mode
-```bash
-npm run dev
-```
-
-## ❗ Troubleshooting
-
+ 
 ### Common Issues
 
 1. **OpenAI API Errors**
@@ -193,58 +151,14 @@ npm run dev
 - [OpenAI API Docs](https://platform.openai.com/docs)
 - [Viem Documentation](https://viem.sh)
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create your feature branch
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-3. Commit your changes
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-4. Push to the branch
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+  
 
 ## 🆘 Support
 
-- GitHub Issues: [Create Issue](<repository-url>/issues)
-- Email: your.email@example.com
-- Discord: [Join Our Community](<discord-link>)
+- GitHub Issues: [Create Issue](https://github.com/jaydippatel83/openai-assistant/issues)
+- Email: jaydippatel83@gmail.com 
 
-## 🙏 Acknowledgments
+ 
+Made with ❤️ by [Jaydip Patel]
 
-- OpenAI for their Assistant API
-- Base Network team
-- Viem library contributors
-- All our contributors and users
-
----
-
-Made with ❤️ by [Your Name/Team]
-```
-
-This README includes:
-1. Clear emojis for better readability
-2. Comprehensive feature documentation
-3. Detailed setup instructions
-4. Security guidelines
-5. Troubleshooting section
-6. Development guidelines
-7. Contributing instructions
-8. Support channels
-
-Remember to:
-1. Replace placeholder URLs
-2. Add your contact information
-3. Update the license section
-4. Add your team/personal information
-5. Include any specific configuration details for your implementation
+ 
