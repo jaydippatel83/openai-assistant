@@ -3,6 +3,7 @@ import { createAssistant } from "./openai/createAssistant";
 import { createThread } from "./openai/createThread";
 import { createRun } from "./openai/createRun";
 import { config } from "dotenv";
+import { performRun } from "./openai/performRun";
 
 config();
 
@@ -14,9 +15,8 @@ async function main() {
     const assistant = await createAssistant(client);
     const thread = await createThread(client, message);
     const run = await createRun(client, thread, assistant.id);
-    console.log(assistant);
-    console.log(thread);
-    console.log(run);
+    const result = await performRun(client, run, thread);
+    console.log(result);
 }
 
 main();
