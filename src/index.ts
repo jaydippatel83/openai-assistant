@@ -11,7 +11,7 @@ async function main() {
     const client = new OpenAI({
         apiKey: process.env.OPENAI_API_KEY,
     });
-    const message = "Hello, how are you?";
+    const message = "Hey, what is my connected wallet address?";
     const assistant = await createAssistant(client);
     const thread = await createThread(client, message);
     const run = await createRun(client, thread, assistant.id);
