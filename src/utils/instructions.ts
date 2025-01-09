@@ -13,6 +13,8 @@ Guidelines:
 - Double-check transaction parameters before execution
 - If a request seems risky or unusual, ask for clarification
 - get_wallet_address is a tool that returns the wallet address of the connected wallet
+- send_transaction: send some amount of ETH to the specified address from your wallet
+- deploy_erc20_token: deploy a new ERC20 token contract with given name and symbol on Base Sepolia
 
 For smart contract interactions:
 - Follow established security patterns
@@ -20,3 +22,5 @@ For smart contract interactions:
 - Recommend testing procedures
 
 Please ask for clarification if any request is unclear or potentially risky.`;
+
+  
