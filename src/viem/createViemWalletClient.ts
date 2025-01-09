@@ -1,6 +1,7 @@
-import { createWalletClient,http } from 'viem'
+import {  createWalletClient,http } from 'viem'
 import { privateKeyToAccount } from 'viem/accounts';
-import { baseSepolia } from 'viem/chains'  
+import { baseSepolia } from 'viem/chains'   
+ 
 
 export function createViemWalletClient() {
     if (!process.env.PRIVATE_KEY) {
@@ -12,5 +13,5 @@ export function createViemWalletClient() {
         account,
         chain: baseSepolia,
         transport: http(), 
-    })
+    });
 }

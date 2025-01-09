@@ -1,3 +1,4 @@
+import { getBalanceTool } from "./getBalance";
 
 export interface ToolConfig<T = any> {
     definition: {
@@ -6,7 +7,7 @@ export interface ToolConfig<T = any> {
             name: string;
             description: string;
             parameters: {
-                type: object;
+                type: 'object';
                 properties: Record<string, unknown>;
                 required: string[];
             };
@@ -16,5 +17,5 @@ export interface ToolConfig<T = any> {
 }
 
 export const tools: Record<string, ToolConfig> = {
-    
+    get_balance: getBalanceTool,
 };
